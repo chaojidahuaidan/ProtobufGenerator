@@ -1,0 +1,8 @@
+package com.privi.protocol;
+
+option java_outer_classname = "RegisterProtoCreator";
+
+message RegisterProto {
+    required string name = 1;
+    required int32 age = 2;
+}
