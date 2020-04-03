@@ -1,0 +1,41 @@
+syntax = "proto3";
+option java_package = "com.bsit.qm702.mqtt";
+option java_outer_classname = "QrOrderModel";
+
+// 二维码交易
+message QrOrder {
+
+    string TxnCode = 1;
+    string Termid = 2;
+    string Posid = 3;
+    string CardNo = 4;
+    string Payaccno = 5;
+    string TransType = 6;
+    string ScanType = 7;
+    string TransDt = 8;
+    string Refnum = 9;
+    string InstIssue = 10;
+    string InstQr = 11;
+    string TxnChannel = 12;
+    string Txnamt = 13;
+    string UpBusTermid = 14;
+    string UpBusSeq = 15;
+    string UpBusTime = 16;
+    string UpStationId = 17;
+    string UpSite = 18;
+    string DnBusTermid = 19;
+    string DnBusSeq = 20;
+    string DnBusTime = 21;
+    string DnStationId = 22;
+    string DnSite = 23;
+    string Summary = 24;
+    string AlgType = 25;
+    string DriverCard = 26;
+    string Direction = 27;
+    string QrInfo = 28;
+    string QrVersion = 29;
+    string InstacpSeq = 30;
+    string Instacp = 31;
+    string Sysssn = 32;
+
+}

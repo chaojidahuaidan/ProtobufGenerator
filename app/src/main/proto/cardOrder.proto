@@ -1,0 +1,39 @@
+syntax = "proto3";
+option java_package = "com.bsit.qm702.mqtt";
+option java_outer_classname = "CardOrderModel";
+
+// 电子钱包
+message CardOrder {
+
+    string TxnCode = 1;
+    string CardNo = 2;
+    string CardTunion = 3;
+    string CardType = 4;
+    string TransDt = 5;
+    string BeforeAmt = 6;
+    string Txnamt = 7;
+    string Bamt = 8;
+    string Afteramt = 9;
+    string TransType = 10;
+    string Termid = 11;
+    string Posid = 12;
+    string Samid = 13;
+    string Posseq = 14;
+    string PosTxndate = 15;
+    string PosTxntime = 16;
+    string TAC = 17;
+    string Cardcnt = 18;
+    string Offer = 19;
+    string Txnst = 20;
+    string KeyVer = 21;
+    string KeyIndex = 22;
+    string AlgType = 23;
+    string StationId = 24;
+    string Site = 25;
+    string DriverCard = 26;
+    string Direction = 27;
+    string Tmoney = 28;
+    string CardKey = 29;
+    string InstIssue = 30;
+
+}

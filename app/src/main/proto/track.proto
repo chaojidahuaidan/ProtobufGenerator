@@ -1,0 +1,22 @@
+syntax = "proto3";
+option java_package = "com.bsit.qm702.mqtt";
+option java_outer_classname = "Track";
+// 公交车轨迹数据
+message msg {
+
+    string Termid = 1;
+    string Posid = 2;
+    string Sam = 3;
+    string INSTACP = 4;
+    string longitude = 5;
+    string latitude = 6;
+    string BusLine = 7;
+    string speed = 8;
+    string Plate = 9;
+    string check = 10;
+    string Time = 11;
+    string Direction = 12;
+    string BusDirection = 13;
+    string Elevation = 14;
+
+}

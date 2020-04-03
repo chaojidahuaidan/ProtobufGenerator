@@ -1,0 +1,25 @@
+syntax = "proto3";
+option java_package = "com.bsit.qm702.mqtt";
+option java_outer_classname = "HeartBeatTempModel";
+// 公共信息
+message HeartBeatTemp {
+
+    string Mcc = 1;
+    string Mchntcd = 2;
+    string TxnChannel = 3;
+    string Termid = 4;
+    string Posid = 5;
+    string BusId = 6;
+    string BusLine = 7;
+    string City = 8;
+    string Shiftnum = 9;
+    string StartTime = 10;
+    string EndTime = 11;
+    string INSTACP = 12;
+    string BlackV = 13;
+    string WhiteV = 14;
+    string FareInfo = 15;
+    string FareInform = 16;
+    string simId = 17;
+
+}
