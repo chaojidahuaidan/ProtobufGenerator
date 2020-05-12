@@ -34,8 +34,7 @@ message QrOrder {
     string Direction = 27;
     string QrInfo = 28;
     string QrVersion = 29;
-    string InstacpSeq = 30;
-    string Instacp = 31;
-    string Sysssn = 32;
+    string Instacp = 30;
+    string Sysssn = 31;
 
 }

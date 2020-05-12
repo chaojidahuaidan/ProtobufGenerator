@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "com.bsit.qm702.mqtt";
+option java_outer_classname = "LogModel";
+// 日志数据
+message CLog {
+
+    string fileName = 1;
+    int32 fileSize = 2;  // 文件的总长度
+    bytes data = 3;
+    bool isEnd = 4;
+
+}

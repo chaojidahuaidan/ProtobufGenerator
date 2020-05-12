@@ -8,18 +8,19 @@ message HeartBeatTemp {
     string Mchntcd = 2;
     string TxnChannel = 3;
     string Termid = 4;
-    string Posid = 5;
-    string BusId = 6;
-    string BusLine = 7;
-    string City = 8;
-    string Shiftnum = 9;
-    string StartTime = 10;
-    string EndTime = 11;
-    string INSTACP = 12;
-    string BlackV = 13;
-    string WhiteV = 14;
-    string FareInfo = 15;
-    string FareInform = 16;
-    string simId = 17;
+    string Samid = 5;
+    string Posid = 6;
+    string BusId = 7;
+    string BusLine = 8;
+    string City = 9;
+    string Shiftnum = 10;
+    string StartTime = 11;
+    string EndTime = 12;
+    string INSTACP = 13;
+    string BlackV = 14;
+    string WhiteV = 15;
+    string FareInfo = 16;
+    string FareInform = 17;
+    string simId = 18;
 
 }
